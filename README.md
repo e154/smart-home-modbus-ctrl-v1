@@ -23,8 +23,10 @@ Arduino Modbus v1 контроллер
     RS485 конвертер
     lm35 - 2шт датчика температуры
     5 выключателей 
+   
+<img src="assets/modbus-ctrl-v1.svg" alt="smart home modbus ctrl v1" width="630">
         
-## компиляция из исходников
+##### компиляция из исходников
 
 Установить platformio по инструкции:
 https://docs.platformio.org/en/latest/installation.html#super-quick-mac-linux
@@ -34,3 +36,7 @@ https://docs.platformio.org/en/latest/installation.html#super-quick-mac-linux
 ```bash
 platformio init --ide clion
 ```
+
+##### LICENSE
+
+Smart home socket is licensed under the [MIT License (MIT)](https://github.com/e154/smart-home-modbus-ctrl-v1/blob/master/LICENSE).
