@@ -2,6 +2,7 @@
 .pio
 .pioenvs
 .piolibdeps
+.DS_Store
 cmake*
 test
 CMakeListsPrivate.txt
