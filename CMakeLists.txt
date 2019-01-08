@@ -3,6 +3,10 @@ project(modbus-ctrl-v1)
 
 add_executable(${PROJECT_NAME} src/main.cpp src/buttons.h src/toggles.h src/toggles.h src/toggle.h src/toggles.h src/lm35.h src/common.h src/config.h)
 
+include_directories(
+        lib
+        lib/ModbusRtu
+)
 
 include(CMakeListsPrivate.txt)
 

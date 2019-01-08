@@ -7,6 +7,8 @@
 
 #include <pins_arduino.h>
 
+#define SLAVE_ID 1
+
 // data array for modbus network sharing
 uint16_t au16data[16] = {
         0, 0, 0, 0, 0, //toggles

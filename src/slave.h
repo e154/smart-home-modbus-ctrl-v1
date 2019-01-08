@@ -22,7 +22,7 @@ public:
     *  u8txenpin : 0 for RS-232 and USB-FTDI
     *               or any pin number > 1 for RS-485
     */
-    Slave(uint8_t u8id = 1) {
+    Slave(uint8_t u8id = SLAVE_ID) {
         this->modbus = Modbus(u8id, 0, TXEN); // this is slave @1 and RS-485
     }
 
