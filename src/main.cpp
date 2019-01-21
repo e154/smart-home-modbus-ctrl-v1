@@ -15,8 +15,8 @@ Temp temp = Temp();
 void setup() {
 //    stdout = serial_stream; // эта строка первая в setup
 
-    slave.begin(115200);
-    Serial.begin(115200);
+    slave.begin(19200);
+    Serial.begin(19200);
 }
 
 void loop() {
